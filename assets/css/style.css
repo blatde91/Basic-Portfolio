@@ -113,18 +113,8 @@ hr {
 	font-size: 120%;
 }
 
-.icons {
-	float: left;
-	padding: 10px;
-
-}
-
-#github-img {
-	margin-left: -10px;
-}
-
 #linkedin-img {
-	margin: auto 5px;
+	margin: auto 10px;
 }
 
 
@@ -158,6 +148,31 @@ button {
 	font-size: 120%;
 }
 
+.row1,
+.row2,
+.row3 {
+	float: left;
+}
+
+.imagecontainer {
+	position: relative;
+	padding: 0px 20px 10px 0px;
+}
+
+.tag {
+	float: left;
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	width: 250px;
+	padding: 10px;
+	text-align: center;
+	bottom: 30px;
+	z-index: 1000;
+
+}
+
 footer {
 	padding: 20px;
 	border-top: 10px solid #4aaaa5;
@@ -166,5 +181,4 @@ footer {
 	text-align: center;
 	color: white;
 	font-size: 75%;
-
 }
